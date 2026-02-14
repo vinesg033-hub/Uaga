@@ -1,12 +1,9 @@
 {
   "namespace": "common_buttons",
-
   "empty_panel": {
     "type": "panel",
     "size": [ 0, 0 ]
   },
-
-  // --- Modern Noir Overrides ---
   "light_content_button@common.button": {
     "$button_texture": "$button_texture_default",
     "$hover_texture": "$button_texture_hover",
@@ -16,7 +13,6 @@
     "$hover_color": "$color_main",
     "$pressed_color": "$color_secondary"
   },
-
   "light_glyph_button@common.button": {
     "$button_texture": "$button_texture_default",
     "$hover_texture": "$button_texture_hover",
@@ -26,8 +22,6 @@
     "$hover_color": "$color_main",
     "$pressed_color": "$color_secondary"
   },
-
-  // --- Premium Noir Button ---
   "simple_button@common.button": {
     "size": "$button_size",
     "controls": [
@@ -87,8 +81,6 @@
       }
     ]
   },
-
-  // --- Wolf Noir Toggle ---
   "premium_toggle": {
     "type": "toggle",
     "size": [ 44, 24 ],
@@ -130,8 +122,6 @@
       }
     ]
   },
-
-  // --- Premium Noir Slider ---
   "premium_slider": {
     "type": "slider",
     "size": [ 120, 16 ],
@@ -167,18 +157,13 @@
       }
     ]
   },
-
   "primary_button@common_buttons.simple_button": {
     "$button_alpha_hover": 0.8
   },
-
   "icon_button@common_buttons.simple_button": {
     "size": [ 32, 32 ],
     "$button_text": ""
   },
-
-
-  // --- Glass Panel for Settings ---
   "glass_panel": {
     "type": "image",
     "texture": "$button_texture_default",

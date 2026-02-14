@@ -1,11 +1,9 @@
 {
   "namespace": "pause",
-
   "pause_button@common_buttons.simple_button": {
     "size": [ 160, 25 ],
     "$button_text_color": "$color_text_main"
   },
-
   "pause_screen_content": {
     "type": "panel",
     "controls": [
@@ -16,38 +14,33 @@
           "anchor_from": "center",
           "anchor_to": "center",
           "controls": [
-            { 
-              "title": { 
-                "type": "panel", 
-                "size": [ "100%", 40 ], 
-                "controls": [ 
-                  { 
-                    "l": { 
-                      "type": "label", 
-                      "text": "GAME PAUSED", 
-                      "color": "$color_secondary", 
+            {
+              "title": {
+                "type": "panel",
+                "size": [ "100%", 40 ],
+                "controls": [
+                  {
+                    "l": {
+                      "type": "label",
+                      "text": "GAME PAUSED",
+                      "color": "$color_secondary",
                       "shadow": true,
-                      "size": [ "default", 10 ] 
-                    } 
-                  } 
-                ] 
-              } 
+                      "size": [ "default", 10 ]
+                    }
+                  }
+                ]
+              }
             },
-            // --- Buttons using the common Noir style ---
             { "res": { "type": "panel", "size": [ "100%", 25 ], "controls": [ { "b@pause.pause_button": { "$button_text": "Resume", "$pressed_button_name": "button.menu_continue" } } ] } },
             { "sp1": { "type": "panel", "size": [ "100%", 5 ] } },
-            
             { "set": { "type": "panel", "size": [ "100%", 25 ], "controls": [ { "b@pause.pause_button": { "$button_text": "Settings", "$pressed_button_name": "button.menu_settings" } } ] } },
             { "sp2": { "type": "panel", "size": [ "100%", 5 ] } },
-            
             { "quit": { "type": "panel", "size": [ "100%", 25 ], "controls": [ { "b@pause.pause_button": { "$button_text": "Save & Quit", "$pressed_button_name": "button.menu_quit" } } ] } }
           ]
         }
       }
     ]
   },
-
-  // --- SCREEN ENGINE ---
   "pause_screen@common.base_screen": {
     "is_showing_menu": true,
     "should_steal_mouse": true,
