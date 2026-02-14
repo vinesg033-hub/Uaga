@@ -118,6 +118,16 @@
       "size": [ 26, 26 ],
       "layer": 5,
       "$pressed_button_name": "button.quickcraft"
+    },
+    "stonecutter_quick_craft_button": {
+      "size": [ 26, 26 ],
+      "layer": 5,
+      "$pressed_button_name": "button.quickcraft"
+    },
+    "quick_trade_button": {
+      "size": [ 26, 26 ],
+      "layer": 5,
+      "$pressed_button_name": "button.quickcraft"
     }
   },
   "quick_trade_button@common.button": {
