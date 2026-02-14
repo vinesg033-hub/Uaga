@@ -90,6 +90,24 @@
       }
     ]
   },
+  "light_text_button@common.button": {
+    "$button_texture": "$button_texture_default",
+    "$hover_texture": "$button_texture_hover",
+    "$pressed_texture": "$button_texture_pressed",
+    "$button_nineslice": "$button_nineslice",
+    "$button_color": "$color_main",
+    "$hover_color": "$color_main",
+    "$pressed_color": "$color_secondary"
+  },
+  "light_text_form_fitting_button@common.button": {
+    "$button_texture": "$button_texture_default",
+    "$hover_texture": "$button_texture_hover",
+    "$pressed_texture": "$button_texture_pressed",
+    "$button_nineslice": "$button_nineslice",
+    "$button_color": "$color_main",
+    "$hover_color": "$color_main",
+    "$pressed_color": "$color_secondary"
+  },
   "quick_craft_button@common.button": {
     "size": [ 26, 26 ],
     "layer": 5,
