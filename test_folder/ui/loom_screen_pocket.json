@@ -1,0 +1,13 @@
+{
+  "namespace": "loom_pocket",
+
+  "help_panel": {
+    "type": "panel",
+    "modifications": [
+      {
+        "control_name": "help_button",
+        "operation": "remove"
+      }
+    ]
+  }
+}

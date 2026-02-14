@@ -1,0 +1,25 @@
+{
+  "namespace": "stonecutter",
+
+  "help_button_removal": {
+    "type": "panel",
+    "modifications": [
+      {
+        "control_name": "help_button",
+        "operation": "remove"
+      }
+    ]
+  },
+
+  "arrow_icon": {
+    "type": "panel",
+    "controls": [
+      {
+        "stonecutter_quick_craft_button@bt_quick_crafting.stonecutter_quick_craft_button": {
+          "size": [ 24, 24 ],
+          "offset": [ 4, 6 ]
+        }
+      }
+    ]
+  }
+}
