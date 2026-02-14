@@ -4,6 +4,15 @@
     "type": "panel",
     "size": [ 0, 0 ]
   },
+  "button@common.button": {
+    "$button_texture": "$button_texture_default",
+    "$hover_texture": "$button_texture_hover",
+    "$pressed_texture": "$button_texture_pressed",
+    "$button_nineslice": "$button_nineslice",
+    "$button_color": "$color_main",
+    "$hover_color": "$color_main",
+    "$pressed_color": "$color_secondary"
+  },
   "light_content_button@common.button": {
     "$button_texture": "$button_texture_default",
     "$hover_texture": "$button_texture_hover",
@@ -80,96 +89,5 @@
         }
       }
     ]
-  },
-  "premium_toggle": {
-    "type": "toggle",
-    "size": [ 44, 24 ],
-    "controls": [
-      {
-        "toggle_bg": {
-          "type": "image",
-          "texture": "$button_texture_default",
-          "color": "$color_secondary",
-          "nineslice_size": "$button_nineslice",
-          "alpha": 0.5,
-          "layer": 20,
-          "size": [ "100%", "100%" ]
-        }
-      },
-      {
-        "toggle_on_glow": {
-          "type": "image",
-          "texture": "$button_texture_pressed",
-          "color": "$color_main",
-          "size": [ "50%", "100%" ],
-          "anchor_from": "right_middle",
-          "anchor_to": "right_middle",
-          "layer": 21,
-          "bindings": [
-            { "binding_name": "#toggle_state", "binding_name_override": "#visible" }
-          ]
-        }
-      },
-      {
-        "toggle_border": {
-          "type": "image",
-          "texture": "$button_texture_border",
-          "color": "$color_main",
-          "nineslice_size": "$button_nineslice",
-          "layer": 22,
-          "size": [ "100%", "100%" ]
-        }
-      }
-    ]
-  },
-  "premium_slider": {
-    "type": "slider",
-    "size": [ 120, 16 ],
-    "controls": [
-      {
-        "slider_track": {
-          "type": "image",
-          "texture": "$button_texture_default",
-          "color": "$color_secondary",
-          "alpha": 0.4,
-          "nineslice_size": "$button_nineslice",
-          "layer": 1,
-          "size": [ "100%", 8 ]
-        }
-      },
-      {
-        "slider_filled": {
-          "type": "image",
-          "texture": "$button_texture_pressed",
-          "color": "$color_main",
-          "alpha": 0.8,
-          "nineslice_size": "$button_nineslice",
-          "layer": 2,
-          "size": [ "100%", 8 ]
-        }
-      },
-      {
-        "slider_step@common_buttons.simple_button": {
-          "size": [ 10, 16 ],
-          "$button_text": "",
-          "layer": 3
-        }
-      }
-    ]
-  },
-  "primary_button@common_buttons.simple_button": {
-    "$button_alpha_hover": 0.8
-  },
-  "icon_button@common_buttons.simple_button": {
-    "size": [ 32, 32 ],
-    "$button_text": ""
-  },
-  "glass_panel": {
-    "type": "image",
-    "texture": "$button_texture_default",
-    "color": "$color_secondary",
-    "alpha": "$glass_alpha",
-    "nineslice_size": "$button_nineslice",
-    "layer": 0
   }
 }

@@ -1,14 +1,9 @@
 {
-  "$background_texture": "textures/ui/BACKGROUND/MENU_BG",
-  "$wolf_logo_size": [ 180, 90 ],
-  "$wolf_glow_alpha": 0.35,
   "$color_white": [ 1.0, 1.0, 1.0 ],
   "$color_main": "$color_white",
   "$color_text_main": "$color_white",
-  "$color_cyan_secondary": [ 0.15, 0.15, 0.15 ],
   "$color_secondary": [ 0.0, 0.8, 0.8 ],
   "$glass_alpha": 0.4,
-  "$screen_background_alpha": 0.4,
   "$button_texture_default": "textures/gui/client/btn_default",
   "$button_texture_hover": "textures/gui/client/btn_hover",
   "$button_texture_pressed": "textures/gui/client/btn_pressed",
@@ -17,7 +12,6 @@
   "$button_alpha_default": 0.3,
   "$button_alpha_hover": 0.8,
   "$button_alpha_pressed": 1.0,
-  "$btn_height": 20,
   "$button_size": [ "100%", "100%" ],
   "$button_text": "",
   "$button_content": "common_buttons.empty_panel"
