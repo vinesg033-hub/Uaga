@@ -5,7 +5,7 @@
     "type": "panel",
     "controls": [
       {
-        "quick_craft_button@bt_quick_crafting.quick_craft_button": {
+        "quick_craft_button@common_buttons.quick_craft_button": {
           "size": [ 26, 26 ],
           "offset": [ 4, 10 ]
         }
@@ -27,7 +27,7 @@
     "type": "panel",
     "controls": [
       {
-        "quick_craft_button@bt_quick_crafting.quick_craft_button": {}
+        "quick_craft_button@common_buttons.quick_craft_button": {}
       }
     ]
   }

@@ -15,7 +15,7 @@
     "type": "panel",
     "controls": [
       {
-        "stonecutter_quick_craft_button@bt_quick_crafting.stonecutter_quick_craft_button": {
+        "stonecutter_quick_craft_button@common_buttons.stonecutter_quick_craft_button": {
           "size": [ 24, 24 ],
           "offset": [ 4, 6 ]
         }

@@ -4,7 +4,7 @@
 	"vertical_arrow_icon": {
 		"controls": [
 			{
-				"stonecutter_quick_craft_button@bt_quick_crafting.stonecutter_quick_craft_button": {
+				"stonecutter_quick_craft_button@common_buttons.stonecutter_quick_craft_button": {
 					"size": [32, 32],
 					"offset": [9, 4]
 				}

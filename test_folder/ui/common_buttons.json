@@ -90,15 +90,18 @@
       }
     ]
   },
-  "quick_craft_button@bt_quick_crafting.quick_craft_button": {
+  "quick_craft_button@common.button": {
+    "size": [ 26, 26 ],
     "layer": 5,
     "$pressed_button_name": "button.quickcraft"
   },
-  "quick_trade_button@bt_quick_crafting.quick_trade_button": {
+  "quick_trade_button@common.button": {
+    "size": [ 26, 26 ],
     "layer": 5,
     "$pressed_button_name": "button.quickcraft"
   },
-  "stonecutter_quick_craft_button@bt_quick_crafting.stonecutter_quick_craft_button": {
+  "stonecutter_quick_craft_button@common.button": {
+    "size": [ 26, 26 ],
     "layer": 5,
     "$pressed_button_name": "button.quickcraft"
   }
