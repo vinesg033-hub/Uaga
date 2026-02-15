@@ -4,7 +4,7 @@
     "description": "FPS Boost & UI Optimization",
     "name": "Wolf Client",
     "uuid": "9afa3a73-6b64-4f5a-9a61-ff786b3c9852",
-    "version": [1, 0, 0],
+    "version": [1, 0, 1],
     "min_engine_version": [1, 21, 100]
   },
   "modules": [
